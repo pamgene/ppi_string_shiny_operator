@@ -3,6 +3,7 @@ library(tercen)
 library(dplyr)
 library(tidyr)
 library(STRINGdb)
+library(png)
 
 ############################################
 #### This part should not be modified
