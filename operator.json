@@ -1,7 +1,7 @@
 {
-  "name": "Template Shiny Operator",
-  "description": "Template to create a Shiny operator in Tercen.",
-  "tags": ["template"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/template_shiny_operator"]
+  "name": "Protein-Protein Network Visualization",
+  "description": "Create a Protein-Protein interaction network using the StringDB.",
+  "tags": ["ppi", "network", "stringdb"],
+  "authors": ["tercen", "wptmdoorn"],
+  "urls": ["https://github.com/tercen/ppi_string_shiny_operator"]
 }
