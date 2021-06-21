@@ -158,7 +158,7 @@ getValues <- function(session) {
       ))
       
       values = sort(unique(df$color))
-      colors = sample(col_vector, length(unique(df$color)))
+      colors = col_vector[1:length(unique(df$color))]
       
       colors_plot = mapvalues(df$color, from = values, to = colors)
       
