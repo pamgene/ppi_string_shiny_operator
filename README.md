@@ -1,19 +1,15 @@
-# Template Shiny operator for Tercen
+# Protein-Protein Network Visualization
 
 ##### Description
 
-The `Template Shiny operator` is a template repository for the creation of Shiny operators in Tercen.
+The `Protein-Protein Network Visualization operator` is a Shiny operator that creates a Protein-Protein interaction network using the String-DB API.
 
 ##### Usage
 
 Input projection|.
 ---|---
-`x-axis`        | type, description 
-`y-axis`        | type, description 
-`row`           | type, description 
-`column`        | type, description 
-`colors`        | type, description 
-`labels`        | type, description 
+`row`           | identifier, unique identifier of the proteins to be mapped (e.g., UniProt)
+`colors`        | factor or numeric (optional), mapping for corresponding to points coloring
 
 Output relations|.
 ---|---
@@ -23,6 +19,6 @@ Output relations|.
 
 Details on the computation.
 
-##### See Also
+##### References
 
-[template_R_operator](https://github.com/tercen/template_R_operator)
+[String-DB](https://string-db.org/)
