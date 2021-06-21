@@ -22,9 +22,18 @@ ui <- shinyUI(
       sliderInput("plotHeight", "Plot height (px)", 200, 2000, 500),
       h5('Network'),
       sliderInput('scoreThres', 'Score threshold', 1, 1000, 400),
+      h5('Labels'),
+      selectInput(
+        'labelType',
+        'Label type',
+        choices = c("Discrete" = "discrete",
+                    "Continious" = "cont"),
+        selected = "Discrete"
+      ),
+      downloadButton('downloadPlot', 'Download Plot')
     ),
     
-    mainPanel(plotOutput("plot1"))
+    mainPanel(uiOutput("ppiPlot"))
     
   )
 )
