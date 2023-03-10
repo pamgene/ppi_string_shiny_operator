@@ -3,5 +3,5 @@
   "description": "Create a Protein-Protein interaction network using the StringDB.",
   "tags": ["ppi", "network", "stringdb"],
   "authors": ["tercen", "wptmdoorn"],
-  "urls": ["https://github.com/tercen/ppi_string_shiny_operator"]
+  "urls": ["https://github.com/pamgene/ppi_string_shiny_operator"]
 }
